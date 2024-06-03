@@ -6,7 +6,7 @@ import { getEnv } from "./util";
 const backendUrl =
   getEnv() === "development"
     ? "http://localhost:3000"
-    : "https://supermemory.dhr.wtf";
+    : "https://ai.productcolab.com";
 
 function App() {
   const [userData, setUserData] = useState<z.infer<typeof userObj> | null>(

@@ -4,7 +4,7 @@ import { Space } from "./types/memory";
 const backendUrl =
   getEnv() === "development"
     ? "http://localhost:3000"
-    : "https://supermemory.dhr.wtf";
+    : "https://ai.productcolab.com";
 
 interface TweetData {
   tweetText: string;

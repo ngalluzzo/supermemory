@@ -67,7 +67,7 @@ export async function POST(req: NextRequest) {
           description: "",
           url: tweet.postUrl,
           baseUrl: "https://twitter.com",
-          image: "https://supermemory.dhr.wtf/twitter.svg",
+          image: "https://ai.productcolab.com/twitter.svg",
           savedAt: new Date(),
           user: session.user.id,
           type: "twitter-bookmark",

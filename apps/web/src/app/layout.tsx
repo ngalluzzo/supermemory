@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "https://supermemory.dhr.wtf/og-image.png",
+        url: "https://ai.productcolab.com/og-image.png",
         width: 1200,
         height: 630,
       },
@@ -21,12 +21,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://supermemory.dhr.wtf",
+    site: "https://ai.productcolab.com",
     creator: "@dhravyashah",
     description: "Save your memories forever, build your own second brain.",
     images: [
       {
-        url: "https://supermemory.dhr.wtf/og-image.png",
+        url: "https://ai.productcolab.com/og-image.png",
         width: 1200,
         height: 630,
       },
@@ -44,7 +44,7 @@ export default function RootLayout({
       <head>
         <meta
           name="og:image"
-          content="https://supermemory.dhr.wtf/og-image.png"
+          content="https://ai.productcolab.com/og-image.png"
         />
         <script
           async

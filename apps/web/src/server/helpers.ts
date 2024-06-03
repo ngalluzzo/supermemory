@@ -16,12 +16,12 @@ export async function getMetaData(url: string) {
   const description = $("meta[name=description]").attr("content") ?? "";
 
   const _favicon =
-    $("link[rel=icon]").attr("href") ?? "https://supermemory.dhr.wtf/web.svg";
+    $("link[rel=icon]").attr("href") ?? "https://ai.productcolab.com/web.svg";
 
   let favicon =
     _favicon.trim().length > 0
       ? _favicon.trim()
-      : "https://supermemory.dhr.wtf/web.svg";
+      : "https://ai.productcolab.com/web.svg";
   if (favicon.startsWith("/")) {
     favicon = baseUrl + favicon;
   } else if (favicon.startsWith("./")) {

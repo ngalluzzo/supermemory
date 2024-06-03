@@ -19,8 +19,8 @@ binding = "AI"
 
 [[kv_namespaces]]
 binding = "KV"
-id = "37a90353da63401e84e20e71165531d0"
-preview_id = "c58b6202814f4224acea97627d0c18aa"
+id = "a64322e321b74e0a9544ca99fbd9fec9"
+preview_id = "5f38dc917d65464b8212d2edc90f2b97"
 
 [browser]
 binding = "MYBROWSER"

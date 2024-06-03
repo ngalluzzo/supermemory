@@ -11,7 +11,7 @@ export const queue = async (batch: MessageBatch, env: Env): Promise<void> => {
 		return;
 	}
 
-	const limits = (await fetch('https://supermemory.dhr.wtf/api/getCount', {
+	const limits = (await fetch('https://ai.productcolab.com/api/getCount', {
 		headers: {
 			Authorization: `Bearer ${token}`,
 		},
@@ -76,7 +76,7 @@ export const queue = async (batch: MessageBatch, env: Env): Promise<void> => {
 
 	console.log(token);
 
-	const res = await fetch('https://supermemory.dhr.wtf/api/addTweetsToDb', {
+	const res = await fetch('https://ai.productcolab.com/api/addTweetsToDb', {
 		method: 'POST',
 		headers: {
 			Authorization: `Bearer ${token}`,

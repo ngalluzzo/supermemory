@@ -4,8 +4,8 @@ compatibility_flags = ["nodejs_compat"]
 
 [[d1_databases]]
 binding = "DATABASE"
-database_name = "dev-d1-anycontext"
-database_id = "fc562605-157a-4f60-b439-2a24ffed5b4c"
+database_name = "supermemory"
+database_id = "f7e506c2-17d6-4a69-9dd1-56310fe03a76"
 
 [[unsafe.bindings]]
 name = "RATELIMITER"
