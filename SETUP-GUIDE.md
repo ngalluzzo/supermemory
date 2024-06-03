@@ -18,7 +18,7 @@ GOOGLE_CLIENT_SECRET="-"
 NEXTAUTH_SECRET='nextauthsecret'
 DATABASE_URL='database.sqlite'
 NEXTAUTH_URL='http://localhost:3000'
-BACKEND_SECURITY_KEY='veryrandomsecuritykey'
+BACKEND_SECURITY_KEY='veryrandomsecuritykey' 
 ```
 
 4. Setup the database:
